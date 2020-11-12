@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://aduda-boaz.github.io/the-nextpage-clone/)
+[Live Demo Link](https://aduda-boaz.github.io/tnw-clone/)
 
 ## Authors
 
