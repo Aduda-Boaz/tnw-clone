@@ -1,0 +1,116 @@
+@media (max-width: 468px) {
+  .headlines {
+    grid-template-columns: repeat(minmax(250px, 1fr));
+  }
+}
+@media (max-width: 768px) {
+  .top_nav, .top_nav ul, .hide_formobile a {
+    display: none;
+  }
+  .main-navigation {
+    display: flex;
+  }
+  .navigation_top {
+    background-color: #fff;
+  }
+  .navigation_bar li:last-of-type {
+    display: flex !important;
+  }
+  .main-navigation {
+    padding: 5px 10px;
+    justify-content: space-between;
+  }
+  .container_news {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px;
+    grid-auto-rows: 250px;
+    gap: 2px;
+  }
+
+   /* Latest news */
+   .most_news {
+     grid-template-columns: 1fr;
+   }
+   .latest_news  {
+    display: flex;
+  }
+  .latest_news li {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+  }
+  .latest_header {
+    margin-left: 10px;
+  }
+
+  .funding_rounds {
+    grid-template-columns: 1fr;
+  }
+  .top-funding {
+    flex-direction: column;
+    justify-content: initial;
+  }
+  .top-funding ul {
+    flex-direction: column;
+    font-size: 13px;
+  }
+  .top-funding li:nth-child(2) {
+    padding: 3px 0;
+  }
+  .top-funding li:nth-child(2)::before, .top-funding li:nth-child(2)::after {
+    content: '';
+    padding: 0;
+  }
+  .headlines {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+  .container_deals {
+    grid-template-columns: 1fr;
+    grid-row-gap: 3px;
+  }
+  .all_deals {
+    display: flex;
+  }
+  .latest_deals a {
+    font-size: 14px;
+    align-self: center;
+  }
+  .img_deals {
+    width: 100px;
+    height: 60px;
+    padding: 0;
+  }
+  .all_deals h5 {
+    padding: 0 0 5px 0;
+    font-size: 14px;
+  }
+  .latest_deals .all_deals {
+    padding-left: 10px;
+  }
+  .all_rights {
+    display: block;
+  }
+  .all_rights p:nth-child(2) {
+    padding: 5px 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .recent_recent_news {
+    grid-row: 1 / span 2;
+  }
+  .menu_icon {
+    display: none;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .navigation_top {
+    height: 50px;
+  }
+  .logo-mobile {
+    display: none;
+  }
+}
