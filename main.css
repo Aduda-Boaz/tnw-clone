@@ -112,7 +112,7 @@ a {
   align-items: center;
 }
 
-.top_nav 
+.top_nav,
 .left_side {
   justify-content: space-between;
 }

@@ -5,7 +5,8 @@
 }
 
 @media (max-width: 768px) {
-  .top_nav, .top_nav ul, 
+  .top_nav, 
+  .top_nav ul, 
   .hide_formobile a {
     display: none;
   }
