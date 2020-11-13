@@ -138,7 +138,7 @@ a {
 /* Recent news container */
 .container_news {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 60% 40%;/* stylelint-ignore */
   grid-column-gap: 6px;
   margin: 5px 5px;
   color: #fff;
@@ -190,8 +190,8 @@ a {
 }
 
 .most_news {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  display: grid;/* stylelint-ignore */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));/* stylelint-ignore */
   grid-column-gap: 6px;
 }
 
@@ -225,16 +225,18 @@ a {
 }
 
 .funding_rounds {
-  display: grid;
+  display: grid;/* stylelint-ignore */
   grid-column-gap: 3px;
   margin: 20px 10px 20px 10px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);/* stylelint-ignore */
 }
 
 .top-funding {
   display: flex;
   justify-content: space-between;
+  /* stylelint-ignore */
   grid-column: 1 / -1;
+  /* stylelint-ignore */
   font-size: 16px;
   color: rgb(255, 68, 34);
 }
@@ -328,6 +330,7 @@ a {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin: 20px 10px 20px 10px;
+  /* stylelint-ignore */
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -411,17 +414,17 @@ a {
 }
 
 .container_deals {
-  display: grid;
+  display: grid;/* stylelint-ignore */
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   margin: 20px 10px 20px 10px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);/* stylelint-ignore */
 }
 
 .latest_deals {
   display: flex;
   justify-content: space-between;
-  grid-column: 1 / -1;
+  grid-column: 1 / -1;/* stylelint-ignore */
   font-size: 16px;
   color: rgb(255, 68, 34);
 }
